@@ -1,0 +1,139 @@
+.s-4 {
+  background-color: #ebebeb;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    h2 {
+      font-size: 43px;
+      color: #006699;
+      font-family: inherit;
+      font-weight: 500;
+      line-height: 1.1;
+      text-align: center;
+    }
+    .cnt-div {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      .input-div {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          align-items: flex-end;
+          .form1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .name {
+              width: 48%;
+              border: none;
+              font-size: 1.2rem;
+              padding: 15px;
+              touch-action: manipulation;
+              font: inherit;
+              -webkit-rtl-ordering: logical;
+              cursor: text;
+            }
+            .name:focus {
+              outline: none;
+            }
+            .email {
+              width: 48%;
+              border: none;
+              font-size: 1.2rem;
+              padding: 15px;
+              touch-action: manipulation;
+              font: inherit;
+              -webkit-rtl-ordering: logical;
+              cursor: text;
+            }
+            .email:focus {
+              outline: none;
+            }
+          }
+        }
+        textarea {
+          resize: none;
+          width: 100%;
+          height: 200px;
+          border: none;
+          font-size: 1.2rem;
+          padding: 15px;
+          touch-action: manipulation;
+          font: inherit;
+          -webkit-rtl-ordering: logical;
+          cursor: text;
+        }
+        textarea:focus {
+          outline: none;
+        }
+        button {
+          border-radius: 50px;
+          font-size: 1em;
+          padding: 10px 40px;
+          background: none;
+          border: 2px solid #4ea7ff;
+          width: 20%;
+          a {
+            line-height: 1.5;
+            font-size: 1em;
+            font-weight: 300;
+            padding: 20px 0;
+            color: #4ea7ff;
+          }
+          a:hover {
+            background: transparent;
+            color: #ffffff;
+            transition: all 0.3s ease;
+          }
+        }
+        button:hover {
+          background: transparent;
+          background-color: #4ea7ff;
+          transition: all 0.3s ease;
+        }
+      }
+      .cnt-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h3 {
+          font-size: 25px;
+          color: #4ea7ff;
+          font-family: inherit;
+          font-weight: 500;
+          line-height: 1.1;
+        }
+        .ctn {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          h4 {
+            color: #666;
+            touch-action: manipulation;
+            a {
+              color: #666;
+              touch-action: manipulation;
+              transition: all 0.3s ease;
+              cursor: pointer;
+            }
+            a:hover,
+            a:focus {
+              color: rgb(77, 166, 255);
+            }
+          }
+        }
+      }
+    }
+  }
+}

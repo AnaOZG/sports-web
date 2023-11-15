@@ -1,0 +1,51 @@
+@mixin cards {
+  .card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 50%;
+    }
+    .card-txt {
+      width: 45%;
+      h2 {
+        font-weight: 300;
+        color: #666666;
+        font-size: 2rem;
+      }
+      p {
+        line-height: 1.8;
+        color: #666;
+      }
+      .btn-div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        button {
+          border-radius: 50px;
+          font-size: 1em;
+          padding: 10px 40px;
+          background: none;
+          border: 2px solid #4ea7ff;
+          a {
+            line-height: 1.5;
+            font-size: 1em;
+            font-weight: 300;
+            padding: 20px 0;
+            color: #4ea7ff;
+          }
+          a:hover {
+            background: transparent;
+            color: #666666;
+            transition: all 0.3s ease;
+          }
+        }
+        button:hover {
+          background: transparent;
+          background-color: #4ea7ff;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

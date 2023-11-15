@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    nav {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        a {
+          color: #ffffff;
+        }
+        a:hover,
+        a:focus {
+          color: #516e8c;
+          text-decoration: none;
+          outline: none;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
